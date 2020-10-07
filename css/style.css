@@ -1,0 +1,123 @@
+
+@font-face{
+	font-family: Blacker Text Light;
+	src: url(../fonts/Blacker-Text-Light-trial.ttf)
+}
+
+@font-face{
+	font-family: Blacker Text Medium;
+	src: url(../fonts/Blacker-Text-Medium-Italic.ttf)
+}
+
+@font-face{
+	font-family: Blacker Text Medium Italic;
+	src: url(../fonts/Blacker-Text-Medium-Italic-trial.ttf)
+}
+
+@font-face{
+	font-family: Candlescript;
+	src: url(../fonts/Candlescript-Demo-Version.otf)
+}
+
+@font-face{
+	font-family: Happy Times Bold;
+	src: url(../fonts/happy-times-NG_bold_master_web.ttf)
+}
+
+@font-face{
+	font-family: Karrik;
+	src: url(../fonts/Karrik-Regular.woff)
+}
+
+h2{
+	margin: 20px 0;
+	font-family: Blacker Text Medium;
+	font-size: 40px;
+}
+
+p{
+	font-family: Karrik;
+	font-size: 20px;
+}
+
+a:link{
+	color: blue
+}
+
+a:visited{
+	color: blue
+}
+
+a:hover{
+	color: red
+}
+
+a:active{
+	color: white
+}
+
+header{
+	display: inline-block;
+	margin: 50px 0 150px 50px;
+}
+
+header h1{
+	margin: 0;
+	display: inline-block;
+	padding: 30px;
+	background-color: blue;
+	font-family: Happy Times Bold;
+	font-size: 50px;
+	color: white;
+}
+
+header h3{
+	display: inline-block;
+	margin: 0;
+	font-family: Candlescript;
+	font-size: 34px;
+	text-align: left;
+	word-spacing: .05em;
+}
+
+body{
+	margin: 0 auto;
+}
+
+article{
+	margin-bottom: 150px;
+}
+
+article img{
+	display: block;
+	margin: 40px auto;
+	height: 750px;
+}
+
+.quote{
+	margin: 40px auto;
+	width: 600px;
+}
+
+.quote blockquote{
+	margin: 0;
+	text-align: left;
+	font-family: Blacker Text Medium Italic, serif;
+	font-size: 30px;
+}
+
+.quote cite{
+	display: block;
+	margin-top: 15px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: Blacker Text Light, serif;
+	font-size: 20px;
+}
+
+
+
+.links{
+	margin: 150px;
+}
+
